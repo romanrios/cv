@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Román Ríos</title>
+
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <header>
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
             <ul>
-                <li>Inicio</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +36,8 @@
         <section id="hero">
             <img src="images/perfil.jpg">
             <h1>Román Ríos</h1>
-            <h2 id="hero">Diseñador gráfico y programador</h2>
+            <h2 id="hhero">Diseñador gráfico y programador</h2>
+            <button type="button" id="boton">Prueba de JavaScript</button>
         </section>
 
         <section id="projects">
@@ -39,7 +47,7 @@
                 <div class="project-detail">
                     <img src="images/proyecto1.webp">
                     <h3>Futumag</h3>
-                    <p>Magazine digital sobre diseño y tecnología</p>
+                    <p id="hero">Magazine digital sobre diseño y tecnología</p>
                     <a href="https://www.behance.net/gallery/152697725/FUTUMAG-Revista-Digital" target="_blank">Enlace
                         al proyecto</a>
                 </div>
@@ -48,9 +56,9 @@
                     <img src="images/proyecto2.webp">
                     <h3>We Sound</h3>
                     <p>Red social de producción musical colaborativa</p>
-                        <a href="https://www.behance.net/gallery/62267843/We-Sound-Red-social-de-produccion-musical"
-                            target="_blank">Enlace
-                            al proyecto</a>
+                    <a href="https://www.behance.net/gallery/62267843/We-Sound-Red-social-de-produccion-musical"
+                        target="_blank">Enlace
+                        al proyecto</a>
                 </div>
 
                 <div class="project-detail">
@@ -67,14 +75,14 @@
 
         <section id="contact">
 
-                        <h2>Contacta conmigo</h2>
+            <h2>Contacta conmigo</h2>
 
-            <form class="form" action="https://formspree.io/f/meqwqwnb"
-            method="POST">
+            <form class="form" action="https://formspree.io/f/meqwqwnb" method="POST">
                 <div class="form_container">
-                    <input type="text" class="form__input" placeholder="Nombre:" name="name">
-                    <input type="email" class="form__input" placeholder="Email:" name="_replyto">
-                    <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message" rows="7"></textarea>
+                    <input type="text" class="form__input" required placeholder="Nombre:" name="name">
+                    <input type="email" class="form__input" required placeholder="Email:" name="_replyto">
+                    <textarea class="form__input form__input--message" required placeholder="Mensaje:" name="message"
+                        rows="7"></textarea>
                     <input type="submit" value="Enviar" class="form__cta">
                 </div>
             </form>
@@ -84,6 +92,8 @@
     </main>
 
     <footer></footer>
+
+    <script src="function.js"></script>
 </body>
 
 </html>
