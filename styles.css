@@ -8,14 +8,53 @@
 }
 
 
+h1 {
+    font-size: 3rem;
+    color: rgb(0, 90, 150);
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    color: rgb(0, 90, 150);
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+p,
+a {
+    line-height: 1.5em;
+}
+
+/*NAV BAR*/
+#idioma {
+    display: flex;
+    height: 60px;
+    position: fixed;
+    margin-left: 1em;
+}
+
+#es,
+#en {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: large;
+    padding: 0 0.5em 0 0.5em;
+}
+
+#es:hover,
+#en:hover {
+    transition: 0.5s;
+    background: #6ab6bb;
+}
 
 nav {
-    position:fixed;
-    top:0;
-
-
-    background: rgb(0, 90, 150);
-    height: 80px;
+    position: fixed;
+    top: 0;
+    background: rgb(0, 115, 150);
+    height: 60px;
     width: 100%;
 }
 
@@ -26,7 +65,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 5px;
 }
 
@@ -44,10 +83,10 @@ li a:hover {
 }
 
 .checkbtn {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     float: right;
-    line-height: 80px;
+    line-height: 60px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -72,8 +111,8 @@ li a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(0, 90, 150);
-        top: 80px;
+        background: rgb(0, 115, 150);
+        top: 60px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -100,26 +139,7 @@ li a:hover {
     }
 }
 
-
-
-h1 {
-    font-size: 3rem;
-    color: rgb(0, 71, 119);
-}
-
-h2 {
-    font-size: 1.7rem;
-    text-align: center;
-    color: rgb(0, 90, 150);
-    margin-bottom: 10px;
-    padding-top: 40px;
-}
-
-p,
-a {
-    line-height: 1.5em;
-}
-
+/* HERO */
 h2#hhero {
     font-weight: 500;
     padding-top: 0px;
@@ -140,7 +160,7 @@ section#hero img {
     margin-bottom: 30px;
 }
 
-
+/* PROJECTS */
 section#projects {
     min-height: 100vh;
     background-color: rgb(237, 252, 255);
@@ -151,6 +171,7 @@ section#projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 2em;
 }
 
 .project-detail {
@@ -162,20 +183,22 @@ section#projects {
     width: 100%;
 }
 
-
+/* CONTACT */
 section#contact {
+
     background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 100%);
 }
 
-.form_container {
+.form {
     width: 90%;
     max-width: 400px;
     border-radius: 1em;
-    padding: 3.5em 1.5em;
+    padding: 0em 1em 5em 1em;
     margin: auto;
 }
 
 .form_container {
+    padding-top: 1em;
     width: 100%;
     display: grid;
     gap: 1em;
@@ -200,4 +223,30 @@ section#contact {
     padding: .7em 0;
     border-radius: .2em;
     cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+   background: rgb(83, 142, 155);
+
+}
+
+#ap_ticmas {
+    justify-content: center;
+    padding: 1.5em;
+    height: 100px;
+    display: flex;
+    max-width: 100%;
+}
+
+
+footer p {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#ticmas {
+    scale: 75%;
 }
