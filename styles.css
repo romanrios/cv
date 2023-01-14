@@ -36,18 +36,18 @@ a {
 
 #es,
 #en {
+    font-size: 1rem;
     cursor: pointer;
     border: none;
     background: none;
     color: #fff;
-    font-size: large;
     padding: 0 0.5em 0 0.5em;
 }
 
 #es:hover,
 #en:hover {
     transition: 0.5s;
-    background: #6ab6bb;
+    color:rgb(0, 247, 255);
 }
 
 nav {
@@ -162,7 +162,6 @@ section#hero img {
 
 /* PROJECTS */
 section#projects {
-    min-height: 100vh;
     background-color: rgb(237, 252, 255);
     color: rgb(0, 90, 150);
 }
