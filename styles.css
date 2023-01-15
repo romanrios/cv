@@ -47,7 +47,7 @@ a {
 #es:hover,
 #en:hover {
     transition: 0.5s;
-    color:rgb(0, 247, 255);
+    color: rgb(0, 247, 255);
 }
 
 nav {
@@ -160,6 +160,12 @@ section#hero img {
     margin-bottom: 30px;
 }
 
+/* FORMACION */
+section#formacion {
+    min-height: 100vh;
+    background: rgb(193, 248, 250);
+}
+
 /* PROJECTS */
 section#projects {
     background-color: rgb(237, 252, 255);
@@ -182,18 +188,65 @@ section#projects {
     width: 100%;
 }
 
-/* CONTACT */
-section#contact {
+.link {
+    color: rgb(0, 90, 150)
+}
 
+.link:hover {
+    background-color: rgb(106, 255, 255)
+}
+
+/* CONTACTO: Datos personales */
+
+#datos_contacto {
+    max-width: 360px;
+    min-width: 360px;
+}
+
+.col {
+    color: rgb(0, 90, 150);
+    padding: 20px 0px 20px 55px
+}
+
+.col .fa {
+    scale: 140%;
+}
+
+#datos_contacto .redes {
+    font-size: .6em;
+    padding: 20px 45px;
+}
+
+.fa-stack {
+    color: rgb(0, 90, 150);
+    padding: 0 21px;
+}
+
+.fa-stack:hover {
+    color: rgb(0, 151, 189);
+}
+
+.linea {
+    margin: auto;
+    max-width: 320px;
+}
+
+
+/* CONTACTO: Contacta conmigo */
+
+section#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 100%);
 }
 
 .form {
     width: 90%;
-    max-width: 400px;
-    border-radius: 1em;
+    max-width: 360px;
+    min-width: 360px;
     padding: 0em 1em 5em 1em;
-    margin: auto;
+
 }
 
 .form_container {
@@ -224,9 +277,21 @@ section#contact {
     cursor: pointer;
 }
 
+.form__cta:hover {
+    background: rgb(0, 151, 189);
+}
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 footer {
-   background: rgb(83, 142, 155);
+    background: rgb(83, 142, 155);
 
 }
 
