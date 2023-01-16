@@ -251,12 +251,42 @@ section#timelines-container{
 section#habilidades{
     min-height: 100vh;
     background: #81fff5;
+ 
 }
 
+section#habilidades_box_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.habilidades_box{
+    margin: 10px;
+    padding: 10px;
+    background: #bafff9;
+    border-radius: 5px;
+    min-width: 220px;
+    justify-content: center;
+}
 
+.tag{
+    font-size: 15px;
+    background-color: rgb(0, 90, 150);
+    color: #fff;
+    padding: 4px 8px;
+    margin: 8px 4px;
+    border-radius: 5px;
+}
 
-
+.hab_box_title{
+    text-align: center;
+    padding: 5px 0 0 0;
+    font-family: "Comfortaa";
+    color: rgb(0, 90, 150);
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
 
 
 
