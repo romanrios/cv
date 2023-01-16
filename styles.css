@@ -51,6 +51,7 @@ a {
 }
 
 nav {
+    z-index: 999;
     position: fixed;
     top: 0;
     background: rgb(0, 115, 150);
@@ -141,6 +142,7 @@ li a:hover {
 
 /* HERO */
 h2#hhero {
+    font-size: 18px;
     font-weight: 500;
     padding-top: 0px;
 }
@@ -160,11 +162,91 @@ section#hero img {
     margin-bottom: 30px;
 }
 
+
+
 /* FORMACION */
-section#formacion {
-    min-height: 100vh;
+section#experiencia {
     background: rgb(193, 248, 250);
 }
+
+section#timelines-container{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* Timeline Container */
+.timeline {
+    padding: 0 30px 0px 30px ;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+    border-left: 2px solid rgb(0, 90, 150);
+}
+
+/* Card container */
+.card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    color: rgb(0, 90, 150);
+    max-width: 450px;
+}
+
+/* Information about the timeline */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Title of the card */
+.title {
+    color: rgb(0, 90, 150);
+    position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid rgb(0, 90, 150);
+}
+
+
+.anio {
+    color: rgb(0, 90, 150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* PROJECTS */
 section#projects {
@@ -195,6 +277,61 @@ section#projects {
 .link:hover {
     background-color: rgb(106, 255, 255)
 }
+
+/* CONTACTO: Formulario*/
+
+section#contact_main {
+    background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 100%);
+}
+
+
+section#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.form {
+    width: 90%;
+    max-width: 360px;
+    min-width: 360px;
+    padding: 0em 1em 2em 1em;
+
+}
+
+.form_container {
+    padding-top: 1em;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__input {
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(154, 198, 216);
+    border-radius: 0.2em;
+}
+
+.form__cta {
+    background-color: rgb(0, 90, 150);
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.form__cta:hover {
+    background: rgb(0, 151, 189);
+}
+
 
 /* CONTACTO: Datos personales */
 
@@ -232,59 +369,6 @@ section#projects {
 }
 
 
-/* CONTACTO: Contacta conmigo */
-
-section#contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 100%);
-}
-
-.form {
-    width: 90%;
-    max-width: 360px;
-    min-width: 360px;
-    padding: 0em 1em 5em 1em;
-
-}
-
-.form_container {
-    padding-top: 1em;
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
-}
-
-.form__input {
-    font-size: 1rem;
-    padding: .8em 1em;
-    outline: none;
-    border: none;
-    border: 1px solid rgb(154, 198, 216);
-    border-radius: 0.2em;
-}
-
-.form__cta {
-    background-color: rgb(0, 90, 150);
-    color: white;
-    border: none;
-    font-weight: 300;
-    font-size: 1rem;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
-}
-
-.form__cta:hover {
-    background: rgb(0, 151, 189);
-}
-
-
-
-
-
 
 
 
@@ -314,3 +398,10 @@ footer p {
 #ticmas {
     scale: 75%;
 }
+
+
+
+
+
+
+

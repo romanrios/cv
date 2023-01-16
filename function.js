@@ -1,11 +1,10 @@
 document.getElementById("en").onclick = function () {
-    document.getElementById("hhero").innerHTML = "Graphic designer & developer"
+    document.getElementById("hhero").innerHTML = "Visual Communication Designer<br>+ Front-End Developer"
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_proyectos").innerHTML = "Projects";
     document.getElementById("nav_contacto").innerHTML = "Contact";
     document.getElementById("title_proyectos").innerHTML = "Fulfilled projects"; 
-    document.getElementById("title_datos").innerHTML = "Personal information"; 
-    document.getElementById("title_contacto").innerHTML = "Contact me"; 
+    document.getElementById("title_datos").innerHTML = "Contact"; 
     document.getElementById("link1").innerHTML = "Link to project";
     document.getElementById("link2").innerHTML = "Link to project";
     document.getElementById("link3").innerHTML = "Link to project";
@@ -18,13 +17,12 @@ document.getElementById("en").onclick = function () {
 }
 
 document.getElementById("es").onclick = function () {
-    document.getElementById("hhero").innerHTML = "Diseñador gráfico y programador";
+    document.getElementById("hhero").innerHTML = "Diseñador de Comunicación Visual<br>+ Desarrollador Front-End";
     document.getElementById("nav_inicio").innerHTML = "Inicio";
     document.getElementById("nav_proyectos").innerHTML = "Proyectos";
-    document.getElementById("title_datos").innerHTML = "Datos personales"; 
+    document.getElementById("title_datos").innerHTML = "Contacto"; 
     document.getElementById("nav_contacto").innerHTML = "Contacto";
     document.getElementById("title_proyectos").innerHTML = "Proyectos realizados"; 
-    document.getElementById("title_contacto").innerHTML = "Contacta conmigo"; 
     document.getElementById("link1").innerHTML = "Enlace al proyecto";
     document.getElementById("link2").innerHTML = "Enlace al proyecto";
     document.getElementById("link3").innerHTML = "Enlace al proyecto";
