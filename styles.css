@@ -9,12 +9,14 @@
 
 
 h1 {
+    font-family: 'Montserrat';
     font-size: 3rem;
     color: rgb(0, 90, 150);
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-family: 'Montserrat';
+    font-size: 2rem;
     text-align: center;
     color: rgb(0, 90, 150);
     margin-bottom: 10px;
@@ -36,7 +38,7 @@ a {
 
 #es,
 #en {
-    font-size: 1rem;
+    font-size: .91rem;
     cursor: pointer;
     border: none;
     background: none;
@@ -142,8 +144,9 @@ li a:hover {
 
 /* HERO */
 h2#hhero {
+    font-family: Montserrat;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 0px;
 }
 
@@ -164,16 +167,15 @@ section#hero img {
 
 
 
-/* FORMACION */
+/* EXPERIENCIA */
 section#experiencia {
     background: rgb(193, 248, 250);
 }
 
 section#timelines-container{
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding-bottom: 50px;
 }
 
@@ -183,7 +185,7 @@ section#timelines-container{
 
 /* Timeline Container */
 .timeline {
-    padding: 0 30px 0px 30px ;
+    padding: 30px 30px 0px 30px ;
 }
 
 /* Outer Layer with the timeline border */
@@ -227,14 +229,29 @@ section#timelines-container{
 
 
 .anio {
+    font-size: 13px;
     color: rgb(0, 90, 150);
+    letter-spacing: 1px;
+}
+
+
+.timeline_top_title{
+    color: rgb(0, 90, 150);
+    padding: 10px 0 15px 0;
+    font-size: 18px;
+    font-family: "Comfortaa";
+    letter-spacing: 1.5px;    
 }
 
 
 
 
+/* HABILIDADES */
 
-
+section#habilidades{
+    min-height: 100vh;
+    background: #81fff5;
+}
 
 
 
