@@ -131,8 +131,7 @@ li a:hover {
         font-size: 20px;
     }
 
-    li a:hover,
-    li a.active {
+    li a:hover {
         background: none;
         color: rgb(0, 247, 255);
     }
@@ -441,6 +440,7 @@ footer {
 
 #ap_ticmas {
     justify-content: center;
+    gap: 25px;
     padding: 1.7em;
     height: 100px;
     display: flex;
@@ -456,10 +456,5 @@ footer p {
 }
 
 #ticmas {
-    scale: 70%;
+    scale: 80%;
 }
-
-
-
-
-
