@@ -79,7 +79,7 @@ nav ul li a {
     border-radius: 3px;
 }
 
-li a.active,
+
 li a:hover {
     background: #6ab6bb;
     transition: .5s;
@@ -101,7 +101,7 @@ li a:hover {
 
 @media (max-width: 952px) {
     nav ul li a {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -153,7 +153,8 @@ h2#hhero {
 
 section#hero {
     height: 100vh;
-    background-image: linear-gradient(45deg, #6ab6bb 0%, #bafff9 100%);
+    background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 80%);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,7 +258,6 @@ section#habilidades {
 
 section#habilidades_box_container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -265,10 +265,25 @@ section#habilidades_box_container {
 .habilidades_box {
     margin: 10px;
     padding: 10px;
-    background: #bafff9;
-    border-radius: 5px;
-    min-width: 220px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
+}
+
+@media (max-width:400px) {
+    .habilidades_box {
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 360px;
+        
+
+    }
+}
+
+.habilidades_box_ {
+    padding: 10px 0 0 0;
 }
 
 .tag {
@@ -278,6 +293,7 @@ section#habilidades_box_container {
     padding: 4px 8px;
     margin: 8px 4px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .hab_box_title {
@@ -289,10 +305,16 @@ section#habilidades_box_container {
     letter-spacing: 1.5px;
 }
 
+@media (min-width: 858px) {
+    section#habilidades {
+        min-height: 100vh;
+        padding-top: 80px;
+    }
 
-
-
-
+    section#habilidades_box_container {
+        padding-top: 50px;
+    }
+}
 
 
 
@@ -301,6 +323,14 @@ section#projects {
     background-color: rgb(237, 252, 255);
     color: rgb(0, 90, 150);
 }
+
+@media (min-width: 858px) {
+    section#projects {
+        min-height: 100vh;
+        padding-top: 30px;
+    }
+}
+
 
 .projects-list {
     display: flex;
@@ -448,3 +478,8 @@ footer p {
 #ticmas {
     scale: 70%;
 }
+
+
+
+
+
