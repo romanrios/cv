@@ -1,4 +1,4 @@
-# romanrios.github.io/cv
+# romanrios.github.io/CV_Website
 Proyecto final integrador | Ticmas Front end Academy 2022 | Argentina Programa 4.0
 
 Consigna:
