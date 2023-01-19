@@ -7,7 +7,6 @@
     list-style: none;
 }
 
-
 h1 {
     font-family: 'Montserrat';
     font-size: 3rem;
@@ -168,7 +167,6 @@ section#hero img {
 }
 
 
-
 /* EXPERIENCIA */
 section#experiencia {
     background: rgb(193, 248, 250);
@@ -180,10 +178,6 @@ section#timelines-container {
     justify-content: center;
     padding-bottom: 50px;
 }
-
-
-
-
 
 /* Timeline Container */
 .timeline {
@@ -229,13 +223,11 @@ section#timelines-container {
     border: 3px solid rgb(0, 90, 150);
 }
 
-
 .anio {
     font-size: 13px;
     color: rgb(0, 90, 150);
     letter-spacing: 1px;
 }
-
 
 .timeline_top_title {
     color: rgb(0, 90, 150);
@@ -244,8 +236,6 @@ section#timelines-container {
     font-family: "Comfortaa";
     letter-spacing: 1.5px;
 }
-
-
 
 
 /* HABILIDADES */
@@ -315,7 +305,6 @@ section#habilidades_box_container {
 }
 
 
-
 /* PROJECTS */
 section#projects {
     background-color: rgb(237, 252, 255);
@@ -328,7 +317,6 @@ section#projects {
         padding-top: 30px;
     }
 }
-
 
 .projects-list {
     display: flex;
@@ -360,7 +348,6 @@ section#contact_main {
     background-image: linear-gradient(0deg, #6ab6bb 0%, #bafff9 100%);
     padding-bottom: 30px;
 }
-
 
 section#contact {
     display: flex;
@@ -446,10 +433,6 @@ section#contact {
 }
 
 
-
-
-
-
 /* FOOTER */
 footer {
     background: rgb(83, 142, 155);
@@ -463,7 +446,6 @@ footer {
     display: flex;
     max-width: 100%;
 }
-
 
 footer p {
     font-size: 14px;

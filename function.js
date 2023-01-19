@@ -42,7 +42,6 @@ document.getElementById("en").onclick = function () {
     document.getElementById("form_mensaje").placeholder = "Message:";
 }
 
-
 document.getElementById("es").onclick = function () {
     /*hero*/
     document.getElementById("hhero").innerHTML = "Diseñador de Comunicación Visual<br>+ Desarrollador Front-End";
@@ -87,7 +86,6 @@ document.getElementById("es").onclick = function () {
     document.getElementById("form_nombre").placeholder = "Nombre:";
     document.getElementById("form_mensaje").placeholder = "Mensaje:";
 }
-
 
 var check = document.querySelector('#check');
 
