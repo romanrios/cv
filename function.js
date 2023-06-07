@@ -1,6 +1,6 @@
 document.getElementById("en").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Visual Communication Designer<br>+ Front-End Developer and Musician"
+    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>+ Front-end Development"
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_experiencia").innerHTML = "Experience";
@@ -44,7 +44,7 @@ document.getElementById("en").onclick = function () {
 
 document.getElementById("es").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Diseñador de Comunicación Visual<br>+ Desarrollador Front-End y Músico";
+    document.getElementById("hhero").innerHTML = "Diseño de Comunicación Visual<br>+ Desarrollo Front-end";
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Inicio";
     document.getElementById("nav_experiencia").innerHTML = "Experiencia";
