@@ -448,11 +448,12 @@ footer {
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 11px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: #fff;
+    padding: 20px;
 }
 
 #ticmas {
