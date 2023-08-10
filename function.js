@@ -16,11 +16,12 @@ document.getElementById("en").onclick = function () {
     document.getElementById("exp_cursos").innerHTML = "COURSES";
     document.getElementById("exp_laboral").innerHTML = "WORK";
     document.getElementById("exp_universidad").innerHTML = "<i>Licenciatura en Diseño de Comunicación Visual.</i><br>University Degree. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
-    document.getElementById("exp_argentina").innerHTML = "Languages and knowledge of programming and digital skills.";
+    document.getElementById("exp_argentina").innerHTML = "Course #SeProgramar (INTI)<br>Front-end development (Ticmas)<br>Development of Android applications (Ticmas)";
     document.getElementById("exp_motion").innerHTML = "<i>Del diseño gráfico al diseño en movimiento.</i><br>Postgraduate course. FADU UNL.";
     document.getElementById("exp_fusa").innerHTML = "Freelance graphic design, development of digital and printed graphic pieces.";
     document.getElementById("exp_seal").innerHTML = "Administration and invoincing in the plastic products industry.";
     document.getElementById("exp_zona").innerHTML = "Sales and technical service of video games and computing.";
+    document.getElementById("exp_codoacodo").innerHTML = "Full Stack Web Development - JavaScript/Node.JS";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DEVELOPMENT";
     document.getElementById("hab_diseño").innerHTML = "DESIGN";
@@ -72,11 +73,12 @@ document.getElementById("es").onclick = function () {
     document.getElementById("exp_cursos").innerHTML = "CURSOS";
     document.getElementById("exp_laboral").innerHTML = "LABORAL";
     document.getElementById("exp_universidad").innerHTML = "<i>Licenciatura en Diseño de Comunicación Visual.</i><br>Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
-    document.getElementById("exp_argentina").innerHTML = "Lenguajes y conocimientos de programación y habilidades digitales.";
+    document.getElementById("exp_argentina").innerHTML = "Curso #SeProgramar (INTI)<br>Desarrollo Front-end (Ticmas)<br>Desarrollo de aplicaciones Android (Ticmas)";
     document.getElementById("exp_motion").innerHTML = "<i>Del diseño gráfico al diseño en movimiento.</i><br>Curso de posgrado. FADU UNL.";
     document.getElementById("exp_fusa").innerHTML = "Diseño gráfico freelance, desarrollo de piezas gráficas digitales e impresas.";
     document.getElementById("exp_seal").innerHTML = "Administración y facturación en industria de productos plásticos.";
     document.getElementById("exp_zona").innerHTML = "Ventas y servicio técnico de videojuegos e informática.";
+    document.getElementById("exp_codoacodo").innerHTML = "Full Stack Desarrollo Web - JavaScript/Node.JS";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DESARROLLO";
     document.getElementById("hab_diseño").innerHTML = "DISEÑO";
