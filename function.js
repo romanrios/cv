@@ -1,3 +1,5 @@
+var links = document.getElementsByClassName("link");
+
 document.getElementById("en").onclick = function () {
     /*hero*/
     document.getElementById("hhero").innerHTML = "Visual Communication Design<br>+ Front-end Development"
@@ -38,16 +40,18 @@ document.getElementById("en").onclick = function () {
     document.getElementById("hab_guitarra").innerHTML = "Guitar";
     document.getElementById("hab_vst").innerHTML = "VST Virtual instruments";
     /*proyectos*/
-    document.getElementById("link_a").innerHTML = "> Link to project&nbsp;";
-    document.getElementById("link_b").innerHTML = "> Link to project&nbsp;";
-    document.getElementById("link_c").innerHTML = "> Link to project&nbsp;";
-    document.getElementById("link_d").innerHTML = "> Link to project&nbsp;";
+
+    for (var i = 0; i < links.length; i++) {
+        links[i].innerHTML = "Link to project";
+    }
+
+
     document.getElementById("proyecto_futumag").innerHTML = "Digital magazine about design and technology";
     document.getElementById("proyecto_wesound").innerHTML = "Social network for collab music production";
     document.getElementById("proyecto_pirogram").innerHTML = "Visual identity for design studio";
     document.getElementById("proyecto_rpggame").innerHTML = "RPG Maker MV test game";
-    document.getElementById("proyecto_musicalexperiments").innerHTML = "Collection of original compositions "; 
-    document.getElementById("proyecto_bienal").innerHTML = "Animation and original music"; 
+    document.getElementById("proyecto_musicalexperiments").innerHTML = "Collection of original compositions ";
+    document.getElementById("proyecto_bienal").innerHTML = "Animation and original music";
     /*contacto*/
     document.getElementById("boton_enviar").value = "Send";
     document.getElementById("form_nombre").placeholder = "Name:";
@@ -97,18 +101,18 @@ document.getElementById("es").onclick = function () {
     document.getElementById("hab_guitarra").innerHTML = "Guitarra";
     document.getElementById("hab_vst").innerHTML = "Instrumentos virtuales VST";
     /*proyectos*/
-    document.getElementById("link_a").innerHTML = "> Enlace al proyecto&nbsp;";
-    document.getElementById("link_b").innerHTML = "> Enlace al proyecto&nbsp;";
-    document.getElementById("link_c").innerHTML = "> Enlace al proyecto&nbsp;";
-    document.getElementById("link_d").innerHTML = "> Enlace al proyecto&nbsp;";
-    document.getElementsByClassName("link").innerHTML = "Enlace al proyecto";
+
+    for (var i = 0; i < links.length; i++) {
+        links[i].innerHTML = "Link al proyecto";
+    }
+
     document.getElementById("proyecto_futumag").innerHTML = "Magazine digital sobre diseño y tecnología";
     document.getElementById("proyecto_wesound").innerHTML = "Red social de producción musical colaborativa";
     document.getElementById("proyecto_pirogram").innerHTML = "Identidad visual para estudio de diseño";
-    document.getElementById("proyecto_rpggame").innerHTML = "Juego de prueba en RPG Maker MV";  
-    document.getElementById("proyecto_musicalexperiments").innerHTML = "Colección de composiciones originales"; 
-    document.getElementById("proyecto_bienal").innerHTML = "Animación y música original"; 
-        /*contacto*/
+    document.getElementById("proyecto_rpggame").innerHTML = "Juego de prueba en RPG Maker MV";
+    document.getElementById("proyecto_musicalexperiments").innerHTML = "Colección de composiciones originales";
+    document.getElementById("proyecto_bienal").innerHTML = "Animación y música original";
+    /*contacto*/
     document.getElementById("boton_enviar").value = "Enviar";
     document.getElementById("form_nombre").placeholder = "Nombre:";
     document.getElementById("form_mensaje").placeholder = "Mensaje:";
