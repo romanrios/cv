@@ -18,13 +18,13 @@ document.getElementById("en").onclick = function () {
     document.getElementById("exp_cursos").innerHTML = "COURSES";
     document.getElementById("exp_laboral").innerHTML = "WORK";
     document.getElementById("exp_universidad").innerHTML = "<i>Licenciatura en Diseño de Comunicación Visual.</i><br>University Degree. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
-    document.getElementById("exp_argentina").innerHTML = "Curso #SeProgramar (INTI)<br>Desarrollo Front-end (Ticmas)<br>Desarrollo de aplicaciones Android (Ticmas)<br><em>Desarrollo Front-end (Educado en Argentina) *</em><br><em>English course (CUI-UBA) *</em>";
+    document.getElementById("exp_argentina").innerHTML = "Curso #SeProgramar (INTI)<br>Desarrollo Front-end (Ticmas)<br>Desarrollo de aplicaciones Android (Ticmas)<br>Desarrollo Front-end (Educado en Argentina)<br>English course (CUI-UBA)";
     document.getElementById("exp_motion").innerHTML = "<i>Del diseño gráfico al diseño en movimiento.</i><br>Postgraduate course. FADU UNL.";
     document.getElementById("exp_fusa").innerHTML = "Freelance graphic design, development of digital and printed graphic pieces.";
     document.getElementById("exp_seal").innerHTML = "Administration and invoincing in the plastic products industry.";
     document.getElementById("exp_zona").innerHTML = "Sales and technical service of video games and computing.";
     document.getElementById("exp_codoacodo").innerHTML = "<em>Full Stack Web Development - JavaScript/Node.JS</em>";
-    document.getElementById("exp_pixi").innerHTML = "<em>Game development with Pixi.JS</em>";
+    document.getElementById("exp_pixi").innerHTML = "Game development with Pixi.JS";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DEVELOPMENT";
     document.getElementById("hab_diseño").innerHTML = "DESIGN";
@@ -44,8 +44,8 @@ document.getElementById("en").onclick = function () {
     for (var i = 0; i < links.length; i++) {
         links[i].innerHTML = "Link to project";
     }
-
-
+    document.getElementById("proyecto_pino").innerHTML = "Pixi.JS platform web game";
+    document.getElementById("proyecto_rockquiz").innerHTML = "Pixi.JS Mobile game";
     document.getElementById("proyecto_futumag").innerHTML = "Digital magazine about design and technology";
     document.getElementById("proyecto_wesound").innerHTML = "Social network for collab music production";
     document.getElementById("proyecto_pirogram").innerHTML = "Visual identity for design studio";
@@ -78,13 +78,13 @@ document.getElementById("es").onclick = function () {
     document.getElementById("exp_cursos").innerHTML = "CURSOS";
     document.getElementById("exp_laboral").innerHTML = "LABORAL";
     document.getElementById("exp_universidad").innerHTML = "<i>Licenciatura en Diseño de Comunicación Visual.</i><br>Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
-    document.getElementById("exp_argentina").innerHTML = "Curso #SeProgramar (INTI)<br>Desarrollo Front-end (Ticmas)<br>Desarrollo de aplicaciones Android (Ticmas)<br><em>Desarrollo Front-end (Educado en Argentina) *</em><br><em>Curso de Inglés (CUI-UBA) *</em>";
+    document.getElementById("exp_argentina").innerHTML = "Curso #SeProgramar (INTI)<br>Desarrollo Front-end (Ticmas)<br>Desarrollo de aplicaciones Android (Ticmas)<br>Desarrollo Front-end (Educado en Argentina)<br>Curso de Inglés (CUI-UBA)";
     document.getElementById("exp_motion").innerHTML = "<i>Del diseño gráfico al diseño en movimiento.</i><br>Curso de posgrado. FADU UNL.";
     document.getElementById("exp_fusa").innerHTML = "Diseño gráfico freelance, desarrollo de piezas gráficas digitales e impresas.";
     document.getElementById("exp_seal").innerHTML = "Administración y facturación en industria de productos plásticos.";
     document.getElementById("exp_zona").innerHTML = "Ventas y servicio técnico de videojuegos e informática.";
     document.getElementById("exp_codoacodo").innerHTML = "<em>Full Stack Desarrollo Web - JavaScript/Node.JS</em>";
-    document.getElementById("exp_pixi").innerHTML = "<em>Desarrollo de videojuegos con Pixi.JS</em>";
+    document.getElementById("exp_pixi").innerHTML = "Desarrollo de videojuegos con Pixi.JS";
 
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DESARROLLO";
@@ -103,9 +103,10 @@ document.getElementById("es").onclick = function () {
     /*proyectos*/
 
     for (var i = 0; i < links.length; i++) {
-        links[i].innerHTML = "Link al proyecto";
+        links[i].innerHTML = "> Enlace al proyecto";
     }
-
+    document.getElementById("proyecto_pino").innerHTML = "Videojuego web de plataformas";
+    document.getElementById("proyecto_rockquiz").innerHTML = "Videojuego para dispositivos móviles";
     document.getElementById("proyecto_futumag").innerHTML = "Magazine digital sobre diseño y tecnología";
     document.getElementById("proyecto_wesound").innerHTML = "Red social de producción musical colaborativa";
     document.getElementById("proyecto_pirogram").innerHTML = "Identidad visual para estudio de diseño";

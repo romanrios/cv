@@ -334,7 +334,8 @@ section#projects {
 }
 
 .link {
-    color: rgb(0, 90, 150)
+    color: rgb(0, 90, 150);
+    font-style: italic;
 }
 
 .link:hover {
