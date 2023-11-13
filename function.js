@@ -42,16 +42,18 @@ document.getElementById("en").onclick = function () {
     /*proyectos*/
 
     for (var i = 0; i < links.length; i++) {
-        links[i].innerHTML = "Link to project";
+        links[i].innerHTML = "> Link to project";
     }
-    document.getElementById("proyecto_pino").innerHTML = "Pixi.JS platform web game";
-    document.getElementById("proyecto_rockquiz").innerHTML = "Pixi.JS Mobile game";
+    document.getElementById("proyecto_pino").innerHTML = "Platform game";
+    document.getElementById("proyecto_rockquiz").innerHTML = "Music, puzzle & quiz game";
+    document.getElementById("proyecto_spacewars").innerHTML = "Shoot'em up game";
     document.getElementById("proyecto_futumag").innerHTML = "Digital magazine about design and technology";
     document.getElementById("proyecto_wesound").innerHTML = "Social network for collab music production";
     document.getElementById("proyecto_pirogram").innerHTML = "Visual identity for design studio";
+    document.getElementById("proyecto_seal").innerHTML = "ID, prints & web";
+    document.getElementById("proyecto_bienal").innerHTML = "Animation and original music";
     document.getElementById("proyecto_rpggame").innerHTML = "RPG Maker MV test game";
     document.getElementById("proyecto_musicalexperiments").innerHTML = "Collection of original compositions ";
-    document.getElementById("proyecto_bienal").innerHTML = "Animation and original music";
     /*contacto*/
     document.getElementById("boton_enviar").value = "Send";
     document.getElementById("form_nombre").placeholder = "Name:";
@@ -105,12 +107,14 @@ document.getElementById("es").onclick = function () {
     for (var i = 0; i < links.length; i++) {
         links[i].innerHTML = "> Enlace al proyecto";
     }
-    document.getElementById("proyecto_pino").innerHTML = "Videojuego web de plataformas";
-    document.getElementById("proyecto_rockquiz").innerHTML = "Videojuego para dispositivos móviles";
+    document.getElementById("proyecto_pino").innerHTML = "Videojuego de plataformas";
+    document.getElementById("proyecto_rockquiz").innerHTML = "Videojuego de música, puzzle y quiz";
+    document.getElementById("proyecto_spacewars").innerHTML = "Videojuego shoot'em up";
     document.getElementById("proyecto_futumag").innerHTML = "Magazine digital sobre diseño y tecnología";
     document.getElementById("proyecto_wesound").innerHTML = "Red social de producción musical colaborativa";
     document.getElementById("proyecto_pirogram").innerHTML = "Identidad visual para estudio de diseño";
     document.getElementById("proyecto_rpggame").innerHTML = "Juego de prueba en RPG Maker MV";
+    document.getElementById("proyecto_seal").innerHTML = "Identidad, impresos y web";
     document.getElementById("proyecto_musicalexperiments").innerHTML = "Colección de composiciones originales";
     document.getElementById("proyecto_bienal").innerHTML = "Animación y música original";
     /*contacto*/
