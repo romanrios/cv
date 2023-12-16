@@ -2,7 +2,7 @@ var links = document.getElementsByClassName("link");
 
 document.getElementById("en").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>> Web Development, Videogames and Music"
+    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>> Web Development, Video games and Music"
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_experiencia").innerHTML = "Experience";
