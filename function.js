@@ -159,3 +159,6 @@ document.getElementById("nav_proyectos").onclick = function () {
 document.getElementById("nav_contacto").onclick = function () {
     check.checked = false;
 }
+document.getElementById("nav_downloads").onclick = function () {
+    check.checked = false;
+}
