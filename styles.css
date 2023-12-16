@@ -208,7 +208,7 @@ section#timelines-container {
     gap: 10px;
 }
 
-/* Title of the card */
+/* Card title */
 .title {
     color: rgb(0, 90, 150);
     position: relative;
@@ -299,7 +299,7 @@ section#habilidades_box_container {
 @media (min-width: 858px) {
     section#habilidades {
         min-height: 100vh;
-        padding-top: 80px;
+        padding-top: 50px;
     }
 
     section#habilidades_box_container {
@@ -312,6 +312,10 @@ section#habilidades_box_container {
 section#projects {
     background-color: rgb(237, 252, 255);
     color: rgb(0, 90, 150);
+}
+
+#title_proyectos{
+    margin-bottom: 40px;
 }
 
 @media (min-width: 858px) {
@@ -345,6 +349,38 @@ section#projects {
 .link:hover {
     background-color: rgb(106, 255, 255)
 }
+
+
+/* DOWNLOADS */
+
+#downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #bafff9;
+    padding-bottom: 30px;
+}
+
+.downloads_container {
+    display: flex;
+
+}
+
+.downloads_link {
+    min-width: 250px;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(0, 90, 150);
+    color: #fff;
+}
+
+.downloads_link:hover {
+    background: rgb(0, 154, 201);
+}
+
 
 /* CONTACTO: Formulario*/
 
@@ -440,7 +476,6 @@ section#contact {
 /* FOOTER */
 footer {
     background: rgb(83, 142, 155);
-
 }
 
 #ap_ticmas {

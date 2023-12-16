@@ -2,17 +2,20 @@ var links = document.getElementsByClassName("link");
 
 document.getElementById("en").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>+ Front-end Development"
+    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>> Web Development, Videogames and Music"
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_experiencia").innerHTML = "Experience";
     document.getElementById("nav_habilidades").innerHTML = "Skills";
     document.getElementById("nav_proyectos").innerHTML = "Projects";
     document.getElementById("nav_contacto").innerHTML = "Contact";
+    document.getElementById("nav_downloads").innerHTML = "Downloads";
     document.getElementById("title_experiencia").innerHTML = "Experience";
     document.getElementById("title_habilidades").innerHTML = "Skills";
-    document.getElementById("title_proyectos").innerHTML = "Projects";
+    document.getElementById("title_proyectos").innerHTML = "Completed projects";
     document.getElementById("title_datos").innerHTML = "Contact";
+    document.getElementById("title_downloads").innerHTML = "Downloads";
+
     /*experiencia*/
     document.getElementById("exp_academica").innerHTML = "ACADEMIC";
     document.getElementById("exp_cursos").innerHTML = "COURSES";
@@ -23,7 +26,7 @@ document.getElementById("en").onclick = function () {
     document.getElementById("exp_fusa").innerHTML = "Freelance graphic design for digital and print media.";
     document.getElementById("exp_seal").innerHTML = "Administration and invoincing in the plastic products industry.";
     document.getElementById("exp_zona").innerHTML = "Sales and technical service of video games and computing.";
-    document.getElementById("exp_codoacodo").innerHTML = "<em>Full Stack Web Development - JavaScript/Node.JS</em>";
+    document.getElementById("exp_codoacodo").innerHTML = "Full Stack Web Development - Node.JS";
     document.getElementById("exp_pixi").innerHTML = "Game development with Pixi.JS";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DEVELOPMENT";
@@ -54,6 +57,11 @@ document.getElementById("en").onclick = function () {
     document.getElementById("proyecto_bienal").innerHTML = "Animation and original music";
     document.getElementById("proyecto_rpggame").innerHTML = "RPG Maker MV test game";
     document.getElementById("proyecto_musicalexperiments").innerHTML = "Collection of original compositions ";
+
+
+    /*descargas*/
+    document.getElementById("certificates").innerHTML = "📄 Certificates PDF";
+
     /*contacto*/
     document.getElementById("boton_enviar").value = "Send";
     document.getElementById("form_nombre").placeholder = "Name:";
@@ -64,17 +72,20 @@ document.getElementById("en").onclick = function () {
 
 document.getElementById("es").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Diseño de Comunicación Visual<br>+ Desarrollo Front-end";
+    document.getElementById("hhero").innerHTML = "Diseño de Comunicación Visual<br>> Desarrollo Web, Videojuegos y Música";
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Inicio";
     document.getElementById("nav_experiencia").innerHTML = "Experiencia";
     document.getElementById("nav_habilidades").innerHTML = "Habilidades";
     document.getElementById("nav_proyectos").innerHTML = "Proyectos";
     document.getElementById("nav_contacto").innerHTML = "Contacto";
+    document.getElementById("nav_downloads").innerHTML = "Descargas";
     document.getElementById("title_experiencia").innerHTML = "Experiencia";
     document.getElementById("title_habilidades").innerHTML = "Habilidades";
-    document.getElementById("title_proyectos").innerHTML = "Proyectos";
+    document.getElementById("title_proyectos").innerHTML = "Proyectos realizados";
     document.getElementById("title_datos").innerHTML = "Contacto";
+    document.getElementById("title_downloads").innerHTML = "Descargas";
+
     /*experiencia*/
     document.getElementById("exp_academica").innerHTML = "ACADÉMICA";
     document.getElementById("exp_cursos").innerHTML = "CURSOS";
@@ -85,7 +96,7 @@ document.getElementById("es").onclick = function () {
     document.getElementById("exp_fusa").innerHTML = "Diseño gráfico independiente para medios digitales e impresos.";
     document.getElementById("exp_seal").innerHTML = "Administración y facturación en industria de productos plásticos.";
     document.getElementById("exp_zona").innerHTML = "Ventas y servicio técnico de videojuegos e informática.";
-    document.getElementById("exp_codoacodo").innerHTML = "<em>Full Stack Desarrollo Web - JavaScript/Node.JS</em>";
+    document.getElementById("exp_codoacodo").innerHTML = "Full Stack Desarrollo Web - Node.JS";
     document.getElementById("exp_pixi").innerHTML = "Desarrollo de videojuegos con Pixi.JS";
 
     /*habilidades*/
@@ -102,7 +113,11 @@ document.getElementById("es").onclick = function () {
     document.getElementById("hab_sintetizadores").innerHTML = "Sintetizadores";
     document.getElementById("hab_guitarra").innerHTML = "Guitarra";
     document.getElementById("hab_vst").innerHTML = "Instrumentos virtuales VST";
-    /*proyectos*/
+
+    /*descargas*/
+    document.getElementById("certificates").innerHTML = "📄 Certificados PDF";
+
+
 
     for (var i = 0; i < links.length; i++) {
         links[i].innerHTML = "> Enlace al proyecto";
@@ -122,6 +137,9 @@ document.getElementById("es").onclick = function () {
     document.getElementById("form_nombre").placeholder = "Nombre:";
     document.getElementById("form_mensaje").placeholder = "Mensaje:";
     document.getElementById("foot_text").innerHTML = "Este sitio web fue creado como proyecto final para el curso de Desarrollo Web Front-end de Ticmas Academy.";
+
+
+
 }
 
 var check = document.querySelector('#check');
