@@ -1,4 +1,5 @@
-var links = document.getElementsByClassName("link");
+let links = document.getElementsByClassName("link");
+let projectHeaders = document.getElementsByClassName("project-header");
 
 document.getElementById("en").onclick = function () {
     /*hero*/
@@ -28,6 +29,8 @@ document.getElementById("en").onclick = function () {
     document.getElementById("exp_zona").innerHTML = "Sales and technical service of video games and computing.";
     document.getElementById("exp_codoacodo").innerHTML = "Full Stack Web Development - Node.JS";
     document.getElementById("exp_pixi").innerHTML = "Game development with Pixi.JS";
+    document.getElementById("exp_react").innerHTML = "Application development with React and React Native";
+
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DEVELOPMENT";
     document.getElementById("hab_diseño").innerHTML = "DESIGN";
@@ -44,9 +47,7 @@ document.getElementById("en").onclick = function () {
     document.getElementById("hab_vst").innerHTML = "VST Virtual instruments";
     /*proyectos*/
 
-    for (var i = 0; i < links.length; i++) {
-        links[i].innerHTML = "> Link to project";
-    }
+
     document.getElementById("proyecto_pino").innerHTML = "Platform game";
     document.getElementById("proyecto_rockquiz").innerHTML = "Music, puzzle & quiz game";
     document.getElementById("proyecto_spacewars").innerHTML = "Shoot'em up game";
@@ -57,6 +58,26 @@ document.getElementById("en").onclick = function () {
     document.getElementById("proyecto_bienal").innerHTML = "Animation and original music";
     document.getElementById("proyecto_rpggame").innerHTML = "RPG Maker MV test game";
     document.getElementById("proyecto_musicalexperiments").innerHTML = "Collection of original compositions ";
+    document.getElementById("proyecto_weather").innerHTML = "Website to check the weather";
+
+    for (let i = 0; i < links.length; i++) {
+        links[i].innerHTML = "> Link to project";
+    }
+
+    for (let i = 0; i < projectHeaders.length; i++) {
+        // Obtén el contenido actual del elemento
+        let currentContent = projectHeaders[i].innerHTML;
+
+        // Realiza los reemplazos necesarios
+        let updatedContent = currentContent.replace(/Diseño/g, "Design")
+            .replace(/Desarrollo/g, "Development")
+            .replace(/Música/g, "Music");
+
+        // Asigna el nuevo contenido al elemento
+        projectHeaders[i].innerHTML = updatedContent;
+    }
+
+
 
 
     /*descargas*/
@@ -98,6 +119,7 @@ document.getElementById("es").onclick = function () {
     document.getElementById("exp_zona").innerHTML = "Ventas y servicio técnico de videojuegos e informática.";
     document.getElementById("exp_codoacodo").innerHTML = "Full Stack Desarrollo Web - Node.JS";
     document.getElementById("exp_pixi").innerHTML = "Desarrollo de videojuegos con Pixi.JS";
+    document.getElementById("exp_react").innerHTML = "Desarrollo de aplicaciones con React y React Native";
 
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DESARROLLO";
@@ -117,11 +139,7 @@ document.getElementById("es").onclick = function () {
     /*descargas*/
     document.getElementById("certificates").innerHTML = "📄 Certificados PDF";
 
-
-
-    for (var i = 0; i < links.length; i++) {
-        links[i].innerHTML = "> Enlace al proyecto";
-    }
+    /*proyectos*/
     document.getElementById("proyecto_pino").innerHTML = "Videojuego de plataformas";
     document.getElementById("proyecto_rockquiz").innerHTML = "Videojuego de música, puzzle y quiz";
     document.getElementById("proyecto_spacewars").innerHTML = "Videojuego shoot'em up";
@@ -132,6 +150,25 @@ document.getElementById("es").onclick = function () {
     document.getElementById("proyecto_seal").innerHTML = "Identidad, impresos y web";
     document.getElementById("proyecto_musicalexperiments").innerHTML = "Colección de composiciones originales";
     document.getElementById("proyecto_bienal").innerHTML = "Animación y música original";
+    document.getElementById("proyecto_weather").innerHTML = "Sitio web para consultar el clima";
+    for (let i = 0; i < links.length; i++) {
+        links[i].innerHTML = "> Enlace al proyecto";
+    }
+    for (let i = 0; i < projectHeaders.length; i++) {
+        // Obtén el contenido actual del elemento
+        let currentContent = projectHeaders[i].innerHTML;
+
+        // Realiza los reemplazos necesarios
+        let updatedContent = currentContent.replace(/Design/g, "Diseño")
+            .replace(/Development/g, "Desarrollo")
+            .replace(/Music/g, "Música");
+
+        // Asigna el nuevo contenido al elemento
+        projectHeaders[i].innerHTML = updatedContent;
+    }
+
+
+
     /*contacto*/
     document.getElementById("boton_enviar").value = "Enviar";
     document.getElementById("form_nombre").placeholder = "Nombre:";
@@ -142,7 +179,7 @@ document.getElementById("es").onclick = function () {
 
 }
 
-var check = document.querySelector('#check');
+let check = document.querySelector('#check');
 
 document.getElementById("nav_inicio").onclick = function () {
     check.checked = false;

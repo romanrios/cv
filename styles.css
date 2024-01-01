@@ -314,7 +314,7 @@ section#projects {
     color: rgb(0, 90, 150);
 }
 
-#title_proyectos{
+#title_proyectos {
     margin-bottom: 40px;
 }
 
@@ -330,6 +330,15 @@ section#projects {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 2em;
+}
+
+.project-header {
+    font-size: 15px;
+    padding: 2px 0;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(0, 90, 150) 0%, rgb(0, 170, 192) 80%);
+    color: white;
+    border-radius: 15px 15px 0 0;
 }
 
 .project-detail {
