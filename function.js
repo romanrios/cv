@@ -3,7 +3,7 @@ let projectHeaders = document.getElementsByClassName("project-header");
 
 document.getElementById("en").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Visual Communication Design<br>> Web Development and Video games"
+    document.getElementById("hhero").innerHTML = "Visual Communication Design<br><em>> Web Development and Video games</em>"
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_experiencia").innerHTML = "Experience";
@@ -95,7 +95,7 @@ document.getElementById("en").onclick = function () {
 
 document.getElementById("es").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Diseño de Comunicación Visual<br>> Desarrollo Web y Videojuegos";
+    document.getElementById("hhero").innerHTML = "Diseño de Comunicación Visual<br><em>> Desarrollo Web y Videojuegos</em>";
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Inicio";
     document.getElementById("nav_experiencia").innerHTML = "Experiencia";
