@@ -1,0 +1,55 @@
+/* PROJECTS */
+section#projects {
+  background-color: rgb(237, 252, 255);
+  color: rgb(0, 90, 150);
+}
+
+#title_proyectos {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 858px) {
+  section#projects {
+    min-height: 100vh;
+    padding-top: 30px;
+  }
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.project-header {
+  font-size: 15px;
+  padding: 2px 0;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(0, 90, 150) 0%, rgb(0, 170, 192) 80%);
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.projects-list h3 {
+  font-weight: 900;
+}
+
+.project-detail {
+  width: 400px;
+  margin: 15px;
+}
+
+.project-detail img {
+  width: 100%;
+}
+
+.link {
+  color: rgb(0, 90, 150);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.link:hover {
+  background-color: rgb(106, 255, 255);
+}

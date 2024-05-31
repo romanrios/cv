@@ -3,7 +3,7 @@ let projectHeaders = document.getElementsByClassName("project-header");
 
 document.getElementById("en").onclick = function () {
   /*hero*/
-  document.getElementById("hhero").innerHTML =
+  document.getElementById("hero_subtitle").innerHTML =
     "Software Developer<br/>and Graphic Designer";
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Home";
@@ -112,7 +112,7 @@ document.getElementById("en").onclick = function () {
 
 document.getElementById("es").onclick = function () {
   /*hero*/
-  document.getElementById("hhero").innerHTML =
+  document.getElementById("hero_subtitle").innerHTML =
     "Desarrollador de Software<br/>y Diseñador Gráfico";
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Inicio";
