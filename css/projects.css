@@ -1,7 +1,7 @@
 /* PROJECTS */
 section#projects {
   background-color: rgb(237, 252, 255);
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
 }
 
 #title_proyectos {
@@ -26,7 +26,11 @@ section#projects {
   font-size: 15px;
   padding: 2px 0;
   text-align: center;
-  background: linear-gradient(45deg, rgb(0, 90, 150) 0%, rgb(0, 170, 192) 80%);
+  background: linear-gradient(
+    45deg,
+    var(--color-primary) 0%,
+    rgb(0, 170, 192) 80%
+  );
   color: white;
   border-radius: 15px 15px 0 0;
 }
@@ -45,11 +49,17 @@ section#projects {
 }
 
 .link {
-  color: rgb(0, 90, 150);
+  border-radius: 5px;
+  color: var(--color-primary);
+  padding: 4px 5px;
+  background-color: rgba(112, 238, 255, 0.774);
+  line-height: 30px;
   font-style: italic;
-  font-weight: 500;
+  font-size: small;
+  font-weight: 600;
+  transition: all 0.5s;
 }
 
 .link:hover {
-  background-color: rgb(106, 255, 255);
+  text-decoration: underline;
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,500..900;1,100..900&display=swap");
 
+@import "./variables.css";
 @import "./navbar.css";
 @import "./hero.css";
 @import "./experience.css";
@@ -25,13 +26,13 @@ html {
 h1 {
   font-size: 3rem;
   font-weight: 900;
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
 }
 
 h2 {
   font-size: 2rem;
   text-align: center;
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
   font-weight: 900;
   margin-bottom: 20px;
   padding-top: 70px;

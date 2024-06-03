@@ -19,7 +19,7 @@
   margin: 15px;
   border-radius: 5px;
   text-align: center;
-  background: rgb(0, 90, 150);
+  background: var(--color-primary);
   color: #fff;
 }
 

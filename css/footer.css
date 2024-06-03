@@ -1,15 +1,6 @@
 /* FOOTER */
 footer {
-  background: rgb(83, 142, 155);
-}
-
-#ap_ticmas {
-  justify-content: center;
-  gap: 25px;
-  padding: 1.7em;
-  height: 100px;
-  display: flex;
-  max-width: 100%;
+  background: var(--color-primary);
 }
 
 footer p {
@@ -18,9 +9,5 @@ footer p {
   justify-content: center;
   text-align: center;
   color: #fff;
-  padding: 20px;
-}
-
-#ticmas {
-  scale: 80%;
+  padding: 30px 0;
 }

@@ -17,7 +17,7 @@ section#timelines-container {
 
 /* Outer Layer with the timeline border */
 .outer {
-  border-left: 2px solid rgb(0, 90, 150);
+  border-left: 2px solid var(--color-primary);
 }
 
 /* Card container */
@@ -25,7 +25,7 @@ section#timelines-container {
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
   max-width: 400px;
 }
 
@@ -39,7 +39,7 @@ section#timelines-container {
 
 /* Card title */
 .title {
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
   position: relative;
   font-weight: 900;
 }
@@ -53,17 +53,17 @@ section#timelines-container {
   background: white;
   border-radius: 999px;
   left: -39px;
-  border: 3px solid rgb(0, 90, 150);
+  border: 3px solid var(--color-primary);
 }
 
 .anio {
   font-size: 13px;
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
   letter-spacing: 1px;
 }
 
 .timeline_top_title {
-  color: rgb(0, 90, 150);
+  color: var(--color-primary);
   padding: 10px 0 15px 0;
   font-size: 18px;
   letter-spacing: 1.5px;

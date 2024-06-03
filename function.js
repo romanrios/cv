@@ -1,4 +1,3 @@
-let links = document.getElementsByClassName("link");
 let projectHeaders = document.getElementsByClassName("project-header");
 
 document.getElementById("en").onclick = function () {
@@ -82,10 +81,6 @@ document.getElementById("en").onclick = function () {
     "Collection of original compositions ";
   document.getElementById("proyecto_weather").innerHTML =
     "Website to check the weather";
-
-  for (let i = 0; i < links.length; i++) {
-    links[i].innerHTML = "> Link to project";
-  }
 
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
@@ -199,9 +194,7 @@ document.getElementById("es").onclick = function () {
     "Animación y música original";
   document.getElementById("proyecto_weather").innerHTML =
     "Sitio web para consultar el clima";
-  for (let i = 0; i < links.length; i++) {
-    links[i].innerHTML = "> Enlace al proyecto";
-  }
+
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
     let currentContent = projectHeaders[i].innerHTML;
