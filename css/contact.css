@@ -22,6 +22,7 @@
 .fa-stack {
   color: var(--color-primary);
   padding: 0 21px;
+  transition: all 0.5s;
 }
 
 .fa-stack:hover {
@@ -79,6 +80,7 @@ section#contact {
   padding: 0.7em 0;
   border-radius: 0.2em;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .form__cta:hover {
