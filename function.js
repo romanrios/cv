@@ -52,11 +52,16 @@ document.getElementById("en").onclick = function () {
   document.getElementById("hab_diseño").innerHTML = "DESIGN";
   document.getElementById("hab_musica").innerHTML = "OTHERS";
   document.getElementById("hab_identidadvisual").innerHTML = "Visual identity";
-  document.getElementById("hab_diseñowebyapps").innerHTML = "Web design & apps";
+  document.getElementById("hab_diseñowebyapps").innerHTML = "Web design & Apps";
   document.getElementById("hab_interfazdeusuario").innerHTML = "User interface";
   document.getElementById("hab_diseñodeinformacion").innerHTML =
     "Infomation design";
   document.getElementById("hab_diseñoeditorial").innerHTML = "Editorial design";
+  document.getElementById("hab_proactividad").innerHTML = "Proactivity";
+  document.getElementById("hab_equipo").innerHTML = "Teamwork";
+  document.getElementById("hab_comunicacion").innerHTML =
+    "Effective communication";
+  document.getElementById("hab_adaptabilidad").innerHTML = "Adaptability";
   document.getElementById("hab_musicaoriginal").innerHTML = "Original music";
   document.getElementById("hab_efectosdesonido").innerHTML = "Sound effects";
   document.getElementById("hab_vst").innerHTML = "VST Virtual instruments";
@@ -77,10 +82,16 @@ document.getElementById("en").onclick = function () {
   document.getElementById("proyecto_seal").innerHTML = "ID, prints & web";
   document.getElementById("proyecto_bienal").innerHTML =
     "Animation and original music";
-  document.getElementById("proyecto_musicalexperiments").innerHTML =
-    "Collection of original compositions ";
+  // document.getElementById("proyecto_musicalexperiments").innerHTML =
+  //   "Collection of original compositions ";
   document.getElementById("proyecto_weather").innerHTML =
     "Website to check the weather";
+
+  document.getElementById("+desarrollo").innerHTML =
+    "Development projects on GitHub";
+  document.getElementById("+diseño").innerHTML = "Design projects on Behance";
+  document.getElementById("+videojuegos").innerHTML = "Videogames on Itch.io";
+  document.getElementById("+musica").innerHTML = "Music on SoundCloud";
 
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
@@ -157,12 +168,17 @@ document.getElementById("es").onclick = function () {
   document.getElementById("hab_diseño").innerHTML = "DISEÑO";
   document.getElementById("hab_musica").innerHTML = "OTRAS";
   document.getElementById("hab_identidadvisual").innerHTML = "Identidad visual";
-  document.getElementById("hab_diseñowebyapps").innerHTML = "Diseño web y apps";
+  document.getElementById("hab_diseñowebyapps").innerHTML = "Diseño web y Apps";
   document.getElementById("hab_interfazdeusuario").innerHTML =
     "Interfaz de usuario";
   document.getElementById("hab_diseñodeinformacion").innerHTML =
     "Diseño de información";
   document.getElementById("hab_diseñoeditorial").innerHTML = "Diseño editorial";
+  document.getElementById("hab_proactividad").innerHTML = "Proactividad";
+  document.getElementById("hab_equipo").innerHTML = "Trabajo en equipo";
+  document.getElementById("hab_comunicacion").innerHTML =
+    "Comunicación efectiva";
+  document.getElementById("hab_adaptabilidad").innerHTML = "Adaptabilidad";
   document.getElementById("hab_musicaoriginal").innerHTML = "Música original";
   document.getElementById("hab_efectosdesonido").innerHTML =
     "Efectos de sonido";
@@ -188,12 +204,19 @@ document.getElementById("es").onclick = function () {
     "Identidad visual para estudio de diseño";
   document.getElementById("proyecto_seal").innerHTML =
     "Identidad, impresos y web";
-  document.getElementById("proyecto_musicalexperiments").innerHTML =
-    "Colección de composiciones originales";
+  // document.getElementById("proyecto_musicalexperiments").innerHTML =
+  //   "Colección de composiciones originales";
   document.getElementById("proyecto_bienal").innerHTML =
     "Animación y música original";
   document.getElementById("proyecto_weather").innerHTML =
     "Sitio web para consultar el clima";
+
+  document.getElementById("+desarrollo").innerHTML =
+    "Proyectos de Desarrollo en GitHub";
+  document.getElementById("+diseño").innerHTML =
+    "Proyectos de Diseño en Behance";
+  document.getElementById("+videojuegos").innerHTML = "Videojuegos en Itch.io";
+  document.getElementById("+musica").innerHTML = "Música en SoundCloud";
 
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
