@@ -4,6 +4,9 @@ document.getElementById("en").onclick = function () {
   /*hero*/
   document.getElementById("hero_subtitle").innerHTML =
     "Software Developer<br/>and Graphic Designer";
+  document.getElementById("hero2_text").innerHTML =
+    "Hello, I'm Roman! <br/><br/>👨‍💻 Software Developer and Graphic Designer from Argentina, passionate about creating high-impact experiences in web development and multimedia design.<br/><br/>🎓 Completed a Bachelor's Degree in Visual Communication Design from the Universidad Nacional del Litoral, complemented by specializations in Web Development and Programming, I'm currently pursuing a Higher Technician in Software Development to further enhance my skills in designing, building, verifying, debugging, optimizing, and maintaining software.<br/><br/>🚀 Ready to bring my full potential and experience to your team.";
+
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Home";
   document.getElementById("nav_experiencia").innerHTML = "Experience";
@@ -24,6 +27,9 @@ document.getElementById("en").onclick = function () {
   document.getElementById("exp_tecnicatura").innerHTML =
     "Higher Technician Degree in Software Development";
   document.getElementById("anio_tecnicatura").innerHTML = "2024 ~ In progress";
+  document.getElementById("exp_freelance_title").innerHTML =
+    "Freelance professional";
+  document.getElementById("anio_freelance").innerHTML = "2018 ~ Present";
   document.getElementById("exp_universidad").innerHTML =
     "<i>Bachelor in Visual Communication Design.</i> University Degree. Universidad Nacional del Litoral. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
   document.getElementById("anio_universidad").innerHTML =
@@ -35,7 +41,9 @@ document.getElementById("en").onclick = function () {
   document.getElementById("exp_motion").innerHTML =
     "Motion Graphics Design: From graphic design to motion design.";
   document.getElementById("exp_fusa").innerHTML =
-    "Freelance graphic design for digital and print media.";
+    "Freelance multimedia design.";
+  document.getElementById("exp_freelance").innerHTML =
+    "Software development and multimedia design.";
   document.getElementById("exp_seal").innerHTML =
     "Administration and invoincing in the plastic products industry.";
   document.getElementById("exp_zona").innerHTML =
@@ -120,6 +128,9 @@ document.getElementById("es").onclick = function () {
   /*hero*/
   document.getElementById("hero_subtitle").innerHTML =
     "Desarrollador de Software<br/>y Diseñador Gráfico";
+  document.getElementById("hero2_text").innerHTML =
+    "¡Hola, soy Román! <br/><br/>👨‍💻 Desarrollador de Software y Diseñador Gráfico de Argentina, apasionado en la creación de experiencias de alto impacto en desarrollo web y diseño multimedia. <br/><br/>🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, complementada con especializaciones en Desarrollo Web y Programación. Actualmente cursando la Tecnicatura    Superior en Desarrollo de Software, profundizando mis habilidades en    el diseño, construcción, verificación, depuración, optimización y    mantenimiento de software.    <br >    <br >    🚀 Listo para aportar todo mi potencial y experiencia a tu equipo.";
+
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Inicio";
   document.getElementById("nav_experiencia").innerHTML = "Experiencia";
@@ -134,12 +145,16 @@ document.getElementById("es").onclick = function () {
   document.getElementById("title_downloads").innerHTML = "Descargas";
 
   /*experiencia*/
+
   document.getElementById("exp_academica").innerHTML = "ACADÉMICA";
   document.getElementById("exp_cursos").innerHTML = "CURSOS";
   document.getElementById("exp_laboral").innerHTML = "LABORAL";
   document.getElementById("exp_tecnicatura").innerHTML =
     "Tecnicatura Superior en Desarrollo de Software";
   document.getElementById("anio_tecnicatura").innerHTML = "2024 ~ En curso";
+  document.getElementById("exp_freelance_title").innerHTML =
+    "Profesional independiente";
+  document.getElementById("anio_freelance").innerHTML = "2018 ~ Presente";
   document.getElementById("exp_universidad").innerHTML =
     "<i>Licenciatura en Diseño de Comunicación Visual.</i> Carrera de grado. Universidad Nacional del Litoral. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
   document.getElementById("anio_universidad").innerHTML =
@@ -151,7 +166,9 @@ document.getElementById("es").onclick = function () {
   document.getElementById("exp_motion").innerHTML =
     "Motion Graphics Design: Del diseño gráfico al diseño en movimiento.";
   document.getElementById("exp_fusa").innerHTML =
-    "Diseño gráfico independiente para medios digitales e impresos.";
+    "Diseño multimedial  independiente.";
+  document.getElementById("exp_freelance").innerHTML =
+    "Desarrollo de software y diseño multimedial.";
   document.getElementById("exp_seal").innerHTML =
     "Administración y facturación en industria de productos plásticos.";
   document.getElementById("exp_zona").innerHTML =

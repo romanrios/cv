@@ -35,6 +35,7 @@ section#timelines-container {
   flex-direction: column;
   gap: 10px;
   font-weight: 500;
+  color: var(--color-primary);
 }
 
 /* Card title */
