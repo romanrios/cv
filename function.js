@@ -5,7 +5,7 @@ document.getElementById("en").onclick = function () {
   document.getElementById("hero_subtitle").innerHTML =
     "Software Developer<br/>and Graphic Designer";
   document.getElementById("hero2_text").innerHTML =
-    "Hello, I'm Roman! <br/><br/>👨‍💻 Software Developer and Graphic Designer from Argentina, passionate about creating high-impact experiences in web development and multimedia design.<br/><br/>🎓 Completed a Bachelor's Degree in Visual Communication Design from the Universidad Nacional del Litoral, complemented by specializations in Web Development and Programming, I'm currently pursuing a Higher Technician in Software Development to further enhance my skills in designing, building, verifying, debugging, optimizing, and maintaining software.<br/><br/>🚀 Ready to bring my full potential and experience to your team.";
+    "Hello, I'm Roman! <br/><br/>👨‍💻 Software Developer and Graphic Designer from Argentina, passionate about creating high-impact experiences in web development and multimedia design.<br/><br/>🎓 Completed a Bachelor's Degree in Visual Communication Design from the Universidad Nacional del Litoral, complemented by specializations in web development and programming, I'm currently pursuing a Higher Technician in Software Development to further enhance my skills in designing, building, verifying, debugging, optimizing, and maintaining software.<br/><br/>🚀 Ready to bring my full potential and experience to your team.";
 
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Home";
@@ -129,7 +129,7 @@ document.getElementById("es").onclick = function () {
   document.getElementById("hero_subtitle").innerHTML =
     "Desarrollador de Software<br/>y Diseñador Gráfico";
   document.getElementById("hero2_text").innerHTML =
-    "¡Hola, soy Román! <br/><br/>👨‍💻 Desarrollador de Software y Diseñador Gráfico de Argentina, apasionado en la creación de experiencias de alto impacto en desarrollo web y diseño multimedia. <br/><br/>🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, complementada con especializaciones en Desarrollo Web y Programación. Actualmente cursando la Tecnicatura    Superior en Desarrollo de Software, profundizando mis habilidades en    el diseño, construcción, verificación, depuración, optimización y    mantenimiento de software.    <br >    <br >    🚀 Listo para aportar todo mi potencial y experiencia a tu equipo.";
+    "¡Hola, soy Román! <br/><br/>👨‍💻 Desarrollador de Software y Diseñador Gráfico de Argentina, apasionado en la creación de experiencias de alto impacto en desarrollo web y diseño multimedia. <br/><br/>🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, complementada con especializaciones en desarrollo web y programación. Actualmente cursando la Tecnicatura    Superior en Desarrollo de Software, profundizando mis habilidades en    el diseño, construcción, verificación, depuración, optimización y    mantenimiento de software.    <br >    <br >    🚀 Listo para aportar todo mi potencial y experiencia a tu equipo.";
 
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Inicio";
