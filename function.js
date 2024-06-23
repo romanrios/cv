@@ -98,8 +98,6 @@ document.getElementById("en").onclick = function () {
   document.getElementById("+desarrollo").innerHTML =
     "Development projects on GitHub";
   document.getElementById("+diseño").innerHTML = "Design projects on Behance";
-  document.getElementById("+videojuegos").innerHTML = "Videogames on Itch.io";
-  document.getElementById("+musica").innerHTML = "Music on SoundCloud";
 
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
@@ -221,8 +219,6 @@ document.getElementById("es").onclick = function () {
     "Identidad visual para estudio de diseño";
   document.getElementById("proyecto_seal").innerHTML =
     "Identidad, impresos y web";
-  // document.getElementById("proyecto_musicalexperiments").innerHTML =
-  //   "Colección de composiciones originales";
   document.getElementById("proyecto_bienal").innerHTML =
     "Animación y música original";
   document.getElementById("proyecto_weather").innerHTML =
@@ -232,8 +228,6 @@ document.getElementById("es").onclick = function () {
     "Proyectos de Desarrollo en GitHub";
   document.getElementById("+diseño").innerHTML =
     "Proyectos de Diseño en Behance";
-  document.getElementById("+videojuegos").innerHTML = "Videojuegos en Itch.io";
-  document.getElementById("+musica").innerHTML = "Música en SoundCloud";
 
   for (let i = 0; i < projectHeaders.length; i++) {
     // Obtén el contenido actual del elemento
