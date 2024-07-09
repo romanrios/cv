@@ -31,7 +31,7 @@ document.getElementById("en").onclick = function () {
     "Freelance professional";
   document.getElementById("anio_freelance").innerHTML = "2018 ~ Present";
   document.getElementById("exp_universidad").innerHTML =
-    "<i>Bachelor in Visual Communication Design.</i> University Degree. Universidad Nacional del Litoral. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
+    "Bachelor in Visual Communication Design. University Degree. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
   document.getElementById("anio_universidad").innerHTML =
     "2005 ~ Pending thesis";
   document.getElementById("exp_argentina").innerHTML =
@@ -154,7 +154,7 @@ document.getElementById("es").onclick = function () {
     "Profesional independiente";
   document.getElementById("anio_freelance").innerHTML = "2018 ~ Presente";
   document.getElementById("exp_universidad").innerHTML =
-    "<i>Licenciatura en Diseño de Comunicación Visual.</i> Carrera de grado. Universidad Nacional del Litoral. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
+    "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.</p>";
   document.getElementById("anio_universidad").innerHTML =
     "2005 ~ Tesina pendiente";
   document.getElementById("exp_argentina").innerHTML =
