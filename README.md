@@ -2,6 +2,4 @@
 
 GitHub Pages: https://romanrios.github.io/
 
-Proyecto final integrador | Ticmas Front end Academy 2022 | Argentina Programa 4.0
-
-![preview2](https://user-images.githubusercontent.com/122373737/213571593-566c1e89-8539-4591-88b2-30c4d736ced3.jpg)
+![screenshot](https://github.com/user-attachments/assets/44f96a42-22a0-4d74-9229-f109906154f8)
