@@ -3,7 +3,7 @@ let projectHeaders = document.getElementsByClassName("project-header");
 document.getElementById("en").onclick = function () {
   /*hero*/
   document.getElementById("hero_subtitle").innerHTML =
-    "Software Developer<br/>and Visual Communication Designer";
+    "Software Developer /<br/>Visual Communication Designer";
   document.getElementById("hero2_text").innerHTML =
     "Hello, I'm Roman! <br/><br/>👨‍💻 Software Developer and Visual Communication Designer from Argentina, passionate about creating high-impact experiences in web development and multimedia design.<br/><br/>🎓 I completed a Bachelor’s Degree in Visual Communication Design from the Universidad Nacional del Litoral, with specializations in Web Development and Programming. Currently, I am pursuing a Higher Technician Degree in Software Development, deepening my skills in software design, construction, verification, debugging, optimization, and maintenance.<br/><br/>💡 My approach is based on proactivity, teamwork, effective communication, and adaptability, with a commitment to continuous learning to face challenges and achieve goals.<br/><br/>🚀 Ready to bring my full potential and experience to your team. Let’s connect!";
 
