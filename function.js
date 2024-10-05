@@ -125,9 +125,9 @@ document.getElementById("en").onclick = function () {
 document.getElementById("es").onclick = function () {
   /*hero*/
   document.getElementById("hero_subtitle").innerHTML =
-    "Desarrollador de Software<br/>y Diseñador Gráfico";
+    "Desarrollador de Software<br/>y Diseñador de Comunicacción Visual";
   document.getElementById("hero2_text").innerHTML =
-    "¡Hola, soy Román!<br /><br />👨‍💻 Desarrollador de Software y Diseñador Gráfico de Argentina, apasionado por crear experiencias de alto impacto en desarrollo web y diseño multimedia. <br /><br /> 🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, con especializaciones en Desarrollo Web y Programación. Actualmente, estoy cursando la Tecnicatura Superior en Desarrollo de Software, profundizando mis habilidades en el diseño, construcción, verificación, depuración, optimización y mantenimiento de software. <br /><br /> 💡 Mi enfoque se basa en la proactividad, el trabajo en equipo, la comunicación efectiva y la adaptabilidad, con una formación constante para afrontar desafíos y alcanzar objetivos. <br /><br />🚀 Listo para aportar todo mi potencial y experiencia a tu equipo. ¡Conectemos!";
+    "¡Hola, soy Román!<br /><br />👨‍💻 Desarrollador de Software y Diseñador de Comunicacción Visual de Argentina, apasionado por crear experiencias de alto impacto en desarrollo web y diseño multimedia. <br /><br /> 🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, con especializaciones en Desarrollo Web y Programación. Actualmente, estoy cursando la Tecnicatura Superior en Desarrollo de Software, profundizando mis habilidades en el diseño, construcción, verificación, depuración, optimización y mantenimiento de software. <br /><br /> 💡 Mi enfoque se basa en la proactividad, el trabajo en equipo, la comunicación efectiva y la adaptabilidad, con una formación constante para afrontar desafíos y alcanzar objetivos. <br /><br />🚀 Listo para aportar todo mi potencial y experiencia a tu equipo. ¡Conectemos!";
 
   /*navbar y títulos*/
   document.getElementById("nav_inicio").innerHTML = "Inicio";
