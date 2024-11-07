@@ -4,8 +4,8 @@ const elements_innerHTML = {
         es: "Desarrollador de Software /<br/>Diseñador de Comunicación Visual"
     },
     hero2_text: {
-        en: "Hello, I'm Roman! <br/><br/>👨‍💻 Software Developer and Visual Communication Designer from Argentina, passionate about creating high-impact experiences in web development and multimedia design.<br/><br/>🎓 I completed a Bachelor’s Degree in Visual Communication Design from the Universidad Nacional del Litoral, with specializations in Web Development and Programming. Currently, I am pursuing a Higher Technician Degree in Software Development, deepening my skills in software design, construction, verification, debugging, optimization, and maintenance.<br/><br/>💡 My approach is based on proactivity, teamwork, effective communication, and adaptability, with a commitment to continuous learning to face challenges and achieve goals.<br/><br/>🚀 Ready to bring my full potential and experience to your team. Let’s connect!",
-        es: "¡Hola, soy Román!<br /><br />👨‍💻 Desarrollador de Software y Diseñador de Comunicación Visual de Argentina, apasionado por crear experiencias de alto impacto en desarrollo web y diseño multimedia. <br /><br /> 🎓 Realicé la Licenciatura en Diseño de Comunicación Visual en la Universidad Nacional del Litoral, con especializaciones en Desarrollo Web y Programación. Actualmente, estoy cursando la Tecnicatura Superior en Desarrollo de Software, profundizando mis habilidades en el diseño, construcción, verificación, depuración, optimización y mantenimiento de software. <br /><br /> 💡 Mi enfoque se basa en la proactividad, el trabajo en equipo, la comunicación efectiva y la adaptabilidad, con una formación constante para afrontar desafíos y alcanzar objetivos. <br /><br />🚀 Listo para aportar todo mi potencial y experiencia a tu equipo. ¡Conectemos!"
+        en: "Hello, I'm Román!<br /><br />👨‍💻 Software Developer and Visual Communication Designer with a specialization in Web Development and Multimedia Design.<br /><br />🎓 I completed my degree at FADU of the National University of Litoral, with supplementary studies in Web Development and Programming. I am currently pursuing a Higher Technical Degree in Software Development, strengthening my professional profile.<br /><br />💼 I work as an intern at the Ministry of Labor, Employment, and Social Security of the Province of Santa Fe, and also lead projects as a freelance professional in the area of Game Design and Development.<br /><br />⚙️ My professional approach is based on proactivity, teamwork, effective communication, and adaptability, with a constant commitment to training to face challenges and achieve goals.<br /><br />🚀 Ready to bring all my potential and experience to new projects. Let's connect!",
+        es: "¡Hola, soy Román!<br /><br />👨‍💻 Desarrollador de Software y Diseñador de Comunicación Visual con especialización en Desarrollo Web y Diseño Multimedia.<br /><br />🎓 Realicé mi carrera en la FADU de la Universidad Nacional del Litoral, con estudios complementarios en Desarrollo Web y Programación. Actualmente cursando la Tecnicatura Superior en Desarrollo de Software, fortaleciendo mi perfil profesional.<br /><br />💼 Me desempeño como pasante en el Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe, y además llevo adelante proyectos como profesional independiente en el área de Diseño y Desarrollo de Videojuegos.<br /><br />⚙️ Mi enfoque profesional se basa en la proactividad, el trabajo en equipo, la comunicación efectiva y la adaptabilidad, con un compromiso constante hacia la formación para enfrentar desafíos y alcanzar objetivos.<br /><br />🚀 Listo para aportar todo mi potencial y experiencia a nuevos proyectos. ¡Conectemos!"
     },
     nav_inicio: {
         en: "Home",
@@ -18,10 +18,6 @@ const elements_innerHTML = {
     nav_habilidades: {
         en: "Skills",
         es: "Habilidades"
-    },
-    nav_proyectos: {
-        en: "Projects",
-        es: "Proyectos"
     },
     nav_contacto: {
         en: "Contact",
@@ -38,10 +34,6 @@ const elements_innerHTML = {
     title_habilidades: {
         en: "Skills",
         es: "Habilidades"
-    },
-    title_proyectos: {
-        en: "Completed projects",
-        es: "Proyectos realizados"
     },
     title_datos: {
         en: "Contact",
