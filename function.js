@@ -67,6 +67,10 @@ const elements_innerHTML = {
         en: "2024 ~ In progress",
         es: "2024 ~ En curso"
     },
+    anio_oracle: {
+        en: "2024 ~ In progress",
+        es: "2024 ~ En curso"
+    },
     exp_freelance_title: {
         en: "Freelance professional",
         es: "Profesional independiente"
