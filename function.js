@@ -67,6 +67,10 @@ const elements_innerHTML = {
         en: "Higher Technician Degree in Software Development",
         es: "Tecnicatura Superior en Desarrollo de Software"
     },
+    anio_pasantia: {
+        en: "2024 ~ Present",
+        es: "2024 ~ Presente"
+    },
     anio_tecnicatura: {
         en: "2024 ~ In progress",
         es: "2024 ~ En curso"
