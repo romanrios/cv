@@ -2,7 +2,7 @@ import {
   elements_innerHTML,
   elements_value,
   elements_placeholder,
-} from "./translations";
+} from "./translations.js";
 
 const translatePage = (lang) => {
   for (let id in elements_innerHTML) {
